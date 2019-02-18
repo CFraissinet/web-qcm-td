@@ -8,9 +8,9 @@ $M = array_shift($args);
 for ($i = 0; $i < $M; $i++) {
     $N = $args[$i];
     if ($N%2==0){
-        $N =$N+1
+        $N =$N+1;
         echo "{$N}\r\n";
     }else{
-    echo "{$N}\r\n";
+        echo "{$N}\r\n";
     }
 }
